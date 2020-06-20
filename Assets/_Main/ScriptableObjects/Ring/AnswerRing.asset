@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5cef0610f439dc4da32b3c7d5c02ba6, type: 3}
+  m_Name: AnswerRing
+  m_EditorClassIdentifier: 
+  Elements:
+  - {fileID: 11400000, guid: 755b6354144172740a6feb13d7540f4e, type: 2}
+  - {fileID: 11400000, guid: 161f6997155b4b844ba754b18fb9ea59, type: 2}

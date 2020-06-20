@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 794e47ae429438d4ab7cf6ddeefac4ea
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - weaponParent: {instanceID: 0}
+  - bulletholePrefab: {fileID: 8773393803786742202, guid: 62c9289c6f655544f8e89db0b0f0db7a,
+      type: 3}
+  - pingPrefab: {fileID: 8888950057244706162, guid: 18e6b3d4a1615cb49bd22fff238db4da,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
