@@ -36,18 +36,14 @@ MonoBehaviour:
   - DestroySpaceship
   - Equip
   - Fire
-  - Ping
-  - RespawnSpaceship
-  - SetCrouch
-  - Shoot
-  - takeDamage
-  - Grenade
   - PingDefending
   - PingEnemy
   - PingLooting
   - PingWaypoint
-  - PingNo
-  - PingYes
+  - RespawnSpaceship
+  - SetCrouch
+  - Shoot
+  - takeDamage
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1
