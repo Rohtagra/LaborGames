@@ -46,4 +46,4 @@ Funktionen:
   b) Eigenes Terrain
   c) Pistole in Blender erstellt
   d) Maschinengewehr in Blender erstellt
-  
+  e) Das Töten anderer Spieler und deren random respawn ist möglich
