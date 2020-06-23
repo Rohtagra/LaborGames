@@ -21,7 +21,7 @@ namespace Com.HHN.FPSGame.Character
         public GameObject pingLootingPrefab;
         public LayerMask canBePinged;
         public bool isAiming = false;
-
+        public Image crosshair;
 
         private float currentCooldown;
         private int currentInd;
@@ -242,13 +242,16 @@ namespace Com.HHN.FPSGame.Character
             Transform tAnchor = currentWeapon.transform.Find("Anchor"); 
             Transform tAnchorStateADS = currentWeapon.transform.Find("State/ADS");
             Transform tAnchorStateHip = currentWeapon.transform.Find("State/Hip");
+            
             if (pIsAiming)
             {
-                tAnchor.position = Vector3.Lerp(tAnchor.position, tAnchorStateADS.position, Time.deltaTime * loadout[currentInd].aimSpeed);
+                tAnchor.position = Vector3.Lerp(tAnchor.position, tAnchorStateADS.position, Time.deltaTime * loadout[currentInd].aimSpeed); 
+                crosshair.enabled = false;
             }
             else
             {
                 tAnchor.position = Vector3.Lerp(tAnchor.position, tAnchorStateHip.position, Time.deltaTime * loadout[currentInd].aimSpeed);
+                crosshair.enabled = true;
             }
         }
 

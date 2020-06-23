@@ -18,7 +18,8 @@ MonoBehaviour:
   recoil: 10
   kickback: 0.1
   aimSpeed: 7
-  damage: 100
+  damage: 200
   ammo: 20
   clipSize: 5
   reload: 1
+  burst: 0

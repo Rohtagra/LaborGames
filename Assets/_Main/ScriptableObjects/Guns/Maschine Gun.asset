@@ -16,10 +16,10 @@ MonoBehaviour:
   prefab: {fileID: 7838334540432615296, guid: 934f0395f6a79754b960b0076032bd75, type: 3}
   firerate: 0.1
   recoil: 4
-  kickback: 0.05
+  kickback: 0.1
   aimSpeed: 7
-  damage: 100
+  damage: 50
   ammo: 150
-  clipSize: 32
+  clipSize: 50
   reload: 2.5
   burst: 1
