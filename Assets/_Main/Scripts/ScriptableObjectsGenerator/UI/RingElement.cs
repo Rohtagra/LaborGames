@@ -8,9 +8,5 @@ namespace Assets._Main.Scripts.ScriptableObjectsGenerator.UI
         public string Name;
 
         public Sprite Icon;
-
-        public Ring NextRing; //probably dont need that
-
-
     }
 }

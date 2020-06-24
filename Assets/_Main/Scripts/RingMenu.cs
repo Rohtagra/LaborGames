@@ -82,22 +82,9 @@ namespace Assets._Main.Scripts
             if (Input.GetKeyUp(KeyCode.F))
             {
                 var path = Path + "/" + Data.Elements[activeElement].Name;
-                if (Data.Elements[activeElement].NextRing != null)
-                {
-                    var newSubRing = Instantiate(gameObject, transform.parent).GetComponent<RingMenu>();
-                    newSubRing.Parent = this;
-                    for (var j = 0; j < newSubRing.transform.childCount; j++)
-                        Destroy(newSubRing.transform.GetChild(j).gameObject);
-                    newSubRing.Data = Data.Elements[activeElement].NextRing;
-                    newSubRing.Path = path;
-                    newSubRing.callback = callback;
-                }
-                else
-                {
-                    Debug.Log("Invoking...");
-                    callback?.Invoke(path);
-                    Destroy(this);
-                }
+                Debug.Log("Invoking...");
+                callback?.Invoke(path);
+                Destroy(this);
 
                 gameObject.SetActive(false);
             }
