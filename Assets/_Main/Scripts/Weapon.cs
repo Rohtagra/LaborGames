@@ -33,6 +33,7 @@ namespace Com.HHN.FPSGame.Character
 
         private void Start()
         {
+            if(!photonView.IsMine) crosshair.enabled = false;
             foreach (Gun a in loadout)
             {
                 a.init();
@@ -107,6 +108,7 @@ namespace Com.HHN.FPSGame.Character
                 Rigidbody r = tNewGrenade.GetComponent<Rigidbody>();
                 r.AddForce(transform.forward * throwForce);
                 // photonView.RPC("Grenade", RpcTarget.All);
+                Debug.Log("Grenaaaaaaaaade");
             }
 
 

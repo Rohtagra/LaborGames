@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: No Element
   m_EditorClassIdentifier: 
   Name: 1
-  Icon: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
-  NextRing: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 2d4a4e64d2770794a812a919a425c23d, type: 3}

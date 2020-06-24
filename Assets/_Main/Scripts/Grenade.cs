@@ -22,38 +22,39 @@ namespace Assets._Main.Prefabs.Grenade
         void explode()
         {
             Debug.Log("explode");
-                Debug.Log("Looking for Colliders");
-                if (photonView.IsMine)
+            Debug.Log("Looking for Colliders");
+            if (photonView.IsMine)
+            {
+
+                Debug.Log("Is mine");
+                Collider[] hitColliders =
+                    Physics.OverlapSphere(transform.position, explosionRadius, PlayerLayer);
+                foreach (Collider c in hitColliders)
                 {
 
-                    Debug.Log("Is mine");
+                    Debug.Log("Scanned");
+                    Scanable scanable = c.GetComponent<Scanable>();
+                    scanable.Scanned();
+
+                }
+            }
+            else
+            {
+
+                Debug.Log("Is not mine");
                 Collider[] hitColliders =
-                        Physics.OverlapSphere(transform.position, explosionRadius, PlayerLayer);
-                    foreach (Collider c in hitColliders)
-                    {
-
-                        Debug.Log("Scanned");
-                        Scanable scanable = c.GetComponent<Scanable>();
-                        scanable.Scanned();
-
-                    }
-                }else
+                    Physics.OverlapSphere(transform.position, explosionRadius, localPlayerLayer);
+                foreach (Collider c in hitColliders)
                 {
 
-                    Debug.Log("Is not mine");
-                Collider[] hitColliders =
-                        Physics.OverlapSphere(transform.position, explosionRadius, localPlayerLayer);
-                    foreach (Collider c in hitColliders)
-                    {
+                    Debug.Log("Scanned");
+                    Scanable scanable = c.GetComponent<Scanable>();
+                    scanable.Scanned();
 
-                        Debug.Log("Scanned");
-                        Scanable scanable = c.GetComponent<Scanable>();
-                        scanable.Scanned();
-
-                    }
+                }
             }
 
-                // gameObject.GetComponent<AudioSource>().Play();
+            // gameObject.GetComponent<AudioSource>().Play();
             explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             gameObject.GetComponent<Collider>().enabled = false;
             gameObject.GetComponent<Renderer>().enabled = false;

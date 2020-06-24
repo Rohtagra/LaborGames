@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549843146}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 22, z: 0}
+  m_LocalPosition: {x: 0, y: 50, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8787162125263599110}
@@ -124,7 +124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 366.5, y: 190}
+  m_AnchoredPosition: {x: 366.5, y: 105}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1070262132
@@ -1512,6 +1512,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8787162125730632077}
     m_Modifications:
+    - target: {fileID: 3764397446121701000, guid: 3aa0a5cfd688c3c45b61ecd0e39d38e2,
+        type: 3}
+      propertyPath: viewIdField
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4390254797794277640, guid: 3aa0a5cfd688c3c45b61ecd0e39d38e2,
         type: 3}
       propertyPath: gunTip

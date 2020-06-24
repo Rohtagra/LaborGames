@@ -13,25 +13,27 @@ Vor dem Start des Spiels muss der PUN Wizard ausgeführt werden. Die ID dafür b
 
 Steuerung:
 1. Bewegung
-W - Vorwärts laufen
-S - Rückwärts laufen
-A - Nach links laufen
-D - Nach rechts laufen
-R - Nachladen
-Maus 1 - Schuss
-Maus 1 gedrückt halten - Dauerfeuer bei Maschinengewehr
-Maus 2 gedrückt halten - Aim
-Shift - Sprinten
-Leertaste - Springen
-L-STRG (+ W  + Shift) - Sliding während des Sprintens
+W -> Vorwärts laufen
+S -> Rückwärts laufen
+A -> Nach links laufen
+D -> Nach rechts laufen
+R -> Nachladen
+Maus 1 -> Schuss
+Maus 1 gedrückt halten -> Dauerfeuer bei Maschinengewehr
+Maus 2 gedrückt halten -> Aim
+Shift -> Sprinten
+Leertaste -> Springen
+L-STRG -> Crouching
+L-STRG + W  + Shift -> Sliding (während des Sprintens)
+
 
 2. Equipment
-1 - Maschinengewehr
-2 - Pistole
-Q - Grabbling Hook, geht nur auf Strukturen oder Boden, nicht an Bäumen
-G - Scan-Granate
-F Einmalig - Waypoint
-F Lange - Pingwheel, auf existierendem Ping Reaktion
+1 -> Maschinengewehr
+2 -> Pistole
+Q -> Grabbling Hook, geht nur auf Strukturen oder Boden, nicht an Bäumen
+G -> Scan-Granate
+F Einmalig -> Waypoint
+F Lange -> Pingwheel, auf existierendem Ping Reaktion
 
 Funktionen:
 1. Bewegung
@@ -78,6 +80,8 @@ Funktionen:
   c) Post-Processing: https://youtu.be/_PzYAbPpK8k
   d) No Sound: https://www.pacdv.com/sounds/voices/no-1.wav
   e) Yes Sound: https://www.pacdv.com/sounds/voices/yes-2.wav
+  f) Thumbs up: https://www.seekpng.com/ipng/u2q8a9w7e6q8t4w7_thumbs-up-outline-graphic-freeuse-download-thumbs-up/
+  g) Thumbs down: https://www.clipartkey.com/view/hwbwRT_thumbs-down-icon-png/
   
 Nüztliche Tutorials:
   a) Terrain: https://youtu.be/aQUJ9qMMhlQ
