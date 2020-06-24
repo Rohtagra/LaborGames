@@ -5,7 +5,7 @@ Teammitglieder: Loris Herrmann, Robin Schneider, Benjamin Nestele
 Generell: Multiplayer-Shooter mit Fähigkeiten die an Fähigkeiten aus Apex Legends angelehnt sind und dessen Pingsystem
 
 ################################################################################################
-Link zum Video: 
+Link zum Video: https://youtu.be/1_rFhgrNESU
 Github: https://github.com/Rohtagra/LaborGames
 ################################################################################################
 
